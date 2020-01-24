@@ -100,9 +100,9 @@ def checkout(cart, coupons)
   end
 
   if grand_total > 100
-    grand_total -= (total * 0.10) 
+    grand_total -= (total * 0.10)
   end
-
+  total
   # This method should call
   # * consolidate_cart
   # * apply_coupons
